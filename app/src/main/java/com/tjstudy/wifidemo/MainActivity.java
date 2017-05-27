@@ -85,7 +85,7 @@ public class MainActivity extends BaseActivity {
         } else {
             boolean enableNetwork = mWifiManager.enableNetwork(newNetworkId, true);
             if (!enableNetwork) {
-                Log.e("MainActivity", "设备账号信息有误");
+                Log.e("MainActivity", "切换到指定wifi失败");
             } else {
                 Log.e("MainActivity", "切换到指定wifi成功");
             }
