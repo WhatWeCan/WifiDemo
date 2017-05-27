@@ -52,8 +52,8 @@ public class MainActivity extends BaseActivity {
         mWifiManager = (WifiManager) getSystemService(WIFI_SERVICE);
     }
 
-    private String aimWifiName = "H10";
-    private String aimWifiPwd = "honmax2005";
+    private String aimWifiName = "wifiName_ssid";
+    private String aimWifiPwd = "wifiPassword";
 
     /**
      * 切换wifi
